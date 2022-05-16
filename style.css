@@ -1,0 +1,22 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+p {
+    font-size: 130%;
+}
+#btn {
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+}
+#ile {
+    font-size: 105%;
+}
+#litry {
+    font-size: large;
+}
+#wynik {
+    font-size: 100px;
+}

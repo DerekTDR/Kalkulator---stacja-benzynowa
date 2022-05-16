@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator - stacja benzynowa</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Stacja Paliw</h1>
+    <div>
+        <p>Oblicz koszt paliwa</p><br />
+        <input type="radio" id="benzyna" name="paliwo" value="benzyna">
+        <label for="benzyna">Benzyna - 6,70zł</label>
+    </div>
+    <div>
+        <input type="radio" id="ropa" name="paliwo" value="ropa">
+        <label for="ropa">Ropa - 7,50zł</label>
+    </div>
+    <div>
+        <label for="litry" id="ile">Ile litrów</label> <br />
+        <input type="number" id="litry" name="paliwo" value="litry">
+    </div>
+    <div>
+        <button id="btn" onclick="policz()">Policz</button>
+    </div>
+    <div>
+        <input type="number" id="wynik" name="paliwo" value="wynik" readonly>
+    </div>
+</body>
+</html>
