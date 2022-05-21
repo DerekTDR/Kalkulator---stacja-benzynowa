@@ -18,6 +18,7 @@ p {
     font-size: large;
 }
 #wynik {
+    text-transform: uppercase;
     font-family: 'Comic Sans MS';
     font-size: 100px;
 }
